@@ -96,6 +96,10 @@ hr {
   margin-left: 20px;
 }
 
+.mobile{
+  display: none;
+}
+
 .blue-div {
   top: -355px;
   left: -15px;
@@ -118,6 +122,134 @@ hr {
   color: white;
 }
 
+.big-star{
+  justify-content: space-between;
+}
+.big{
+  width: 40%;
+}
+
+.gra-div{
+  top: 80px;
+  left: -10px;
+}
+
+.gra{
+  top: 100px;
+  left: -20px;
+}
+
+.idea-div{
+  top: -80px;
+  left: 50px;
+}
+
+.idea{
+  top: -180px;
+  width: 20%;
+  left: 145px;
+}
+
+.idea p{
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.idea-div-mobile {
+  display: none;
+}
+
+.idea-mobile {
+  display: none;
+}
+
+.arrow-div{
+  left: 100px;
+  top: -30px;
+}
+
+.arrow{
+  left: 380px;
+  top: -30px;
+}
+
+.star{
+  width: 40%;
+  color: white;
+  margin-top: 10%;
+}
+
+
+.intro h4{
+  width: 70%;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 6%;
+}
+
+.intro span{
+  color: #d434fe;
+}
+
+.pu-div{
+  left: 100px;
+  top: 10px;
+}
+
+.pu{
+  left: 290px;
+  top: 15px;
+}
+
+.rules{
+  margin-top: 17%;
+}
+
+.rules span {
+  color: #d434fe;
+}
+
+.rules h4 {
+  width: 30%;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 35px;
+  margin-bottom: 3%;
+}
+
+.rules p{
+  width: 92%;
+}
+
+.man-woman{
+  margin-top: 10%;
+  justify-content: space-between;
+}
+
+.manwo{
+  width: 40%;
+  margin-left: -6%;
+}
+
+.manwo img{
+  margin-top: 7%;
+}
+
+.judging{
+  width: 40%;
+}
+
+.ellispe-div{
+  top: 30px;
+}
+
+.ellispe{
+  top: 50px;
+}
+
+
 @media (max-width: 768px) {
   .get-div {
     flex-direction: column;
@@ -132,6 +264,9 @@ hr {
     width: 100% !important;
   }
 
+  .mobile{
+    display: none;
+  }
   .participate {
     width: 100% !important;
   }
@@ -147,7 +282,7 @@ hr {
 
   .bulb {
     top: -34px;
-    left: 240px;
+    left: 270px;
   }
 
   .man {
@@ -157,6 +292,7 @@ hr {
   .man img {
     width: 100% !important;
   }
+
   .blue-div {
     top: -355px;
     left: -10px;
@@ -169,6 +305,65 @@ hr {
 
   .blue img {
     width: 50% !important;
+  }
+
+  .chain-fire{
+    left: 265px;
+  }
+
+  .big-star{
+    flex-direction: column;
+  }
+
+  .big{
+    width: 100%;
+    margin-left: 15%;  
+  }
+
+  .star{
+    width: 100%;
+  }
+
+  .intro{
+    text-align: center;
+  }
+
+  .intro h4{
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .pu-div{
+    left: 280px;
+  }
+
+  .pu{
+    left: 350px;
+    top: -10px;
+  }
+
+  .idea{
+    left: 120px;
+  }
+
+  .idea-mobile{
+    display: none;
+  }
+
+  .rules-div{
+    flex-direction: column-reverse;
+  }
+
+  .woman{
+    width: 100%!important;
+  }
+
+  .woman img{
+    /* width: 100%; */
+  }
+
+  .rules{
+    width: 100%!important;
   }
 }
 
@@ -201,5 +396,127 @@ hr {
 
   .get {
     margin-top: 0 !important;
+  }
+
+  .get h1 {
+    display: none;
+  }
+
+  .mobile{
+    display: block!important;
+    font-size: 35px!important;
+    width: 100%!important;
+    line-height: 40px!important;
+    margin-bottom: 30px!important;
+    font-weight: 700!important;
+    letter-spacing: 0!important;
+  }
+
+  .span2{
+    margin-left: -20%;
+    color: white;
+  }
+
+  .bulb-div{
+    left: 15%;
+  }
+
+  .bulb{
+    left: 56%;
+    width: 45px;
+  }
+
+  .chain-fire-div{
+    left: 60px;
+    top: -19px;
+  }
+
+  .chain-fire{
+    margin-left: 0;
+    left: 218px;
+    width: 25%;
+  }
+
+  .span{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .blue-div {
+    top: -200px;
+    left: -10px;
+  }
+
+  .blue {
+    top: -165px;
+    left: -5px;
+  }
+
+  .blue img {
+    width: 45%!important;
+  }
+
+  hr{
+    margin-top: 0;
+  }
+
+  .big-idea img{
+    width: 100%;
+    margin-left: -15%;
+  }
+
+  .gra-div{
+    top: 12px;
+    left: -15px;
+  }
+
+  .idea{
+    display: none;
+  }
+
+  /* .idea-mobile {
+    position: relative;
+    display: block;
+    width: 30%;
+    bottom: 40%;
+  }
+
+  .idea-mobile p{
+    position: absolute;
+    font-size: 20px;
+    bottom: 40%;
+    font-weight: bold;
+    text-align: center;
+  } */
+
+  .arrow-div{
+    left: 40px;
+  }
+
+  .arrow{
+    left: 35px;
+    top: 30px;
+  }
+
+  .star{
+    margin-top: 30%;
+  }
+
+  .pu-div{
+    left: 80px;
+  }
+
+  .pu{
+    left: 250px;
+    width: 30%;
+  }
+
+  .pu img{
+    width: 30%;
+  }
+
+  .intro h4{
+    line-height: 30px;
+    font-size: 24px;
   }
 }
