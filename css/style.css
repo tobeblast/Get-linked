@@ -6,7 +6,7 @@
 
 #section {
   background-color: rgb(40, 3, 66);
-  height: 500vh;
+  height: 1000vh;
   overflow: hidden;
 }
 
@@ -23,7 +23,7 @@
   padding: 10px 30px;
   color: white;
   border-radius: 5px;
-  background-image: linear-gradient(to right, #d434fe, #903aff);
+  background-image: linear-gradient(to right, #fe34dc, #903aff);
 }
 
 hr {
@@ -193,6 +193,10 @@ hr {
   color: #d434fe;
 }
 
+.intro p {
+  font-size: 14px;
+}
+
 .pu-div{
   left: 100px;
   top: 10px;
@@ -220,33 +224,68 @@ hr {
 }
 
 .rules p{
-  width: 92%;
+  font-size: 14px;
+  width: 80%;   
 }
 
 .man-woman{
-  margin-top: 10%;
+  margin: 10% 0;
   justify-content: space-between;
+  padding-left: 5%;
+  margin-right: 8%;
 }
 
 .manwo{
   width: 40%;
-  margin-left: -6%;
 }
 
 .manwo img{
   margin-top: 7%;
+  width: 93%;
+  /* margin: ; */
 }
 
 .judging{
-  width: 40%;
+  width: 41%;
 }
 
-.ellispe-div{
-  top: 30px;
+.ellipse-div{
+  top: 3px;
+  left: 45px;
 }
 
-.ellispe{
-  top: 50px;
+.ellipse{
+  top: 5px;
+  left: 50px;
+  z-index: 1;
+}
+
+.man-woman-img{
+  position: absolute;
+  z-index: 2;
+}
+
+.judging h4{
+  width: 50%;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 35px;
+  margin-bottom: 3%;    
+}
+
+.judging h4 span{
+  color: #d434fe;  
+}
+
+.judging p{
+  width: 100%;
+  font-size: 14px;
+}
+
+.judging p span{
+  font-weight: 600;
+  font-size: 16px;
+  color: #FF26B9;
 }
 
 
@@ -358,13 +397,47 @@ hr {
     width: 100%!important;
   }
 
-  .woman img{
-    /* width: 100%; */
-  }
-
   .rules{
     width: 100%!important;
+    text-align: center;
+    margin-top: 0;
   }
+
+  .rules h4{
+    width: 100%;
+  }
+
+  .rules p{
+    width: 100%;
+  }
+
+  .man-woman{
+    width: 100%!important;
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    margin-right: 0;
+  }
+
+  .manwo, .man-woman-img img{
+    width: 100%;
+  }
+
+  .judging{
+    margin-top: 80%;
+    width: 100%;
+    text-align: start;
+    padding: 0 80px;
+  }
+
+  .judging h4{
+    width: 100%;
+  }
+
+  .in-div{
+    width: 100%;
+  }
+
 }
 
 @media (max-width: 500px) {
@@ -474,21 +547,6 @@ hr {
     display: none;
   }
 
-  /* .idea-mobile {
-    position: relative;
-    display: block;
-    width: 30%;
-    bottom: 40%;
-  }
-
-  .idea-mobile p{
-    position: absolute;
-    font-size: 20px;
-    bottom: 40%;
-    font-weight: bold;
-    text-align: center;
-  } */
-
   .arrow-div{
     left: 40px;
   }
@@ -518,5 +576,36 @@ hr {
   .intro h4{
     line-height: 30px;
     font-size: 24px;
+  }
+
+  .wo, .wo img{
+    width: 100%!important;
+  }
+
+  .man-woman{
+    width: 80%;
+  }
+
+  .judging {
+    width: 100%;
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 90%;
+  }
+
+  .judging h4{
+    width: 100%;
+  }
+
+  .judging span{
+    width: 5%!important;
+  }
+
+  .ellipse-div{
+    display: none;
+  }
+
+  .ellipse{
+    display: none;
   }
 }
