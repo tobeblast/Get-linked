@@ -10,6 +10,10 @@
   overflow: hidden;
 }
 
+.mobile2{
+  display: none;
+}
+
 .nb p {
   color: white !important;
 }
@@ -290,6 +294,7 @@ hr {
 
 .faq-think{
   margin-top: 10%;
+  margin-bottom: 6%;
 }
 
 .faq{
@@ -322,27 +327,61 @@ hr {
   justify-content: space-between;
   width: 95%!important;
 }
+
 .think{
   width: 40%;
 }
 
-.questions{
-
-}
-
 .question1{
-  font-size: 70px;
   color: #D434FE;
-  font-family: "MADE TOMMY Outline";
   font-size: 128px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 500; 
   line-height: 27.5px;
-  /* 21.484% */
+  left: 50%;
+  top: -25px;
+}
+
+.question2{
+  color: #A866FD;
+  font-size: 85px;
+  left: 95%;
+  top: -50px;
+}
+
+.question3 {
+  color: #A866FD;
+  font-size: 70px;
+  left: 25%;
+  top: -15px;
+}
+
+.time-div{
+  justify-content: center;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.time h4{
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 35px;
+  margin-bottom: 3%;
+  font-family: Arial;
+}
+
+.time p {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 30px;
 }
 
 
 @media (max-width: 768px) {
+
+  #section{
+    height: 1500%;
+  }
   .get-div {
     flex-direction: column;
   }
@@ -491,6 +530,53 @@ hr {
     width: 100%;
   }
 
+  .faq-think {
+    flex-direction: column;
+  }
+
+  .faq {
+    width: 100%;
+  }
+
+  .we {
+    width: 100%;
+  }
+
+  .mobile2 {
+    display: none!important;
+  }
+
+  .we p {
+    width: 100%;
+  }
+
+  .think {
+    margin-top: 25%;
+  }
+
+  .think,
+  .img img {
+    width: 100%;
+  }
+
+  .question1 {
+    left: 30%;
+    top: -30px;
+  }
+
+  .question2 {
+    left: 57%;
+    top: -47px;
+  }
+
+  .question3 {
+    left: 70px;
+    top: -33px;
+  }
+
+
+
+
 }
 
 @media (max-width: 500px) {
@@ -627,8 +713,13 @@ hr {
   }
 
   .intro h4{
-    line-height: 30px;
+    /* line-height: 30px; */
     font-size: 24px;
+    display: none;
+  }
+
+  .rules h4{
+    display: none;
   }
 
   .wo, .wo img{
@@ -647,7 +738,7 @@ hr {
   }
 
   .judging h4{
-    width: 100%;
+    display: none;
   }
 
   .judging span{
@@ -661,4 +752,58 @@ hr {
   .ellipse{
     display: none;
   }
+
+  .faq-think{
+    flex-direction: column;
+  }
+
+  .faq{
+    width: 100%;
+  }
+
+  .we{
+    text-align: center;
+    width: 100%;
+  }
+
+  .faq h4{
+    display: none;
+  }
+
+  .mobile2{
+    display: block!important;
+    width: 100%!important;
+  }
+
+  .we p{
+    width: 100%;
+  }
+
+  .think{
+    margin-top: 35%;
+  }
+
+  .think, .img img{
+    width: 100%;
+  }
+
+  .question1 {
+    font-size: 75px;
+    left: 26%;
+    top: -30px;
+  }
+
+  .question2 {
+    font-size: 50px;
+    left: 57%;
+    top: -47px;
+  }
+
+  .question3 {
+    font-size: 50px;
+    left: 20px;
+    top: -35px;
+  }
+
+
 }
