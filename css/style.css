@@ -288,6 +288,59 @@ hr {
   color: #FF26B9;
 }
 
+.faq-think{
+  margin-top: 10%;
+}
+
+.faq{
+  width: 40%;
+}
+
+.faq h4{
+  width: 50%;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 35px;
+  margin-bottom: 3%;
+    
+}
+
+.faq h4 span {
+  color:#d434fe;
+}
+
+.we p{
+  font-size: 16px;
+  font-weight: 600;
+  width: 80%;
+  line-height: 30px;
+}
+
+.plus-div{
+  border-bottom: 2px #d434fe solid;
+  margin-top: 5%;
+  justify-content: space-between;
+  width: 95%!important;
+}
+.think{
+  width: 40%;
+}
+
+.questions{
+
+}
+
+.question1{
+  font-size: 70px;
+  color: #D434FE;
+  font-family: "MADE TOMMY Outline";
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27.5px;
+  /* 21.484% */
+}
+
 
 @media (max-width: 768px) {
   .get-div {
