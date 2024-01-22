@@ -14,6 +14,11 @@
   display: none;
 }
 
+.na{
+  margin-left: 30%;
+  justify-content: space-between;
+}
+
 .nb p {
   color: white !important;
 }
@@ -246,7 +251,6 @@ hr {
 .manwo img{
   margin-top: 7%;
   width: 93%;
-  /* margin: ; */
 }
 
 .judging{
@@ -380,6 +384,10 @@ hr {
   gap: 80px;
 }
 
+.announce-div-mobile{
+  display: none;
+}
+
 .announce-div h5{
   color: #d434fe;
 }
@@ -391,22 +399,27 @@ hr {
 .announced{
   text-align: right;
   margin-top: 10%;
+  margin-left: -5%;
 }
 
 .nov {
-  margin-top: 28%;
+  margin-top: 20%;
 }
 
 .team{
-  margin-top: 22%;
+  margin-top: 17%;
 }
 
 .nov2{
-  margin-top: 25%;
+  margin-top: 23%;
 }
 
 .offically{
-  margin-top: 23%;
+  margin-top: 19%;
+}
+
+.nov4{
+  margin-top: 17%;
 }
 
 .date{
@@ -415,18 +428,20 @@ hr {
 }
 
 .nov3{
-  margin-top: 22%;
+  margin-top: 17%;
 }
 
 .accepted{
-  margin-top: 20%;
+  margin-top: 18%;
+}
+
+.nov5{
+  margin-top: 16%;
 }
 
 .demo{
-  margin-top: 20%;
+  margin-top: 16%;
 }
-
-
 
 .one{
   background: url('../images/Rectangle 7.png');
@@ -443,8 +458,13 @@ hr {
 
 .one p{
   margin-top: 15px;
+  font-weight: 700;
+  font-style: bold;
 }
 
+.announce-div-mobile{
+  display: none!important;
+}
 
 
 @media (max-width: 768px) {
@@ -452,8 +472,13 @@ hr {
   #section{
     height: 1500%;
   }
+  
   .get-div {
     flex-direction: column;
+  }
+
+  .na {
+    margin-left: 0;
   }
 
   .pur-mobile {
@@ -644,12 +669,59 @@ hr {
     top: -33px;
   }
 
+  .time h4{
+    margin-bottom: 0;
+  }
+  .announce-div{
+    display: none!important;
+  }
+  
+  .announce-div-mobile{
+    gap: 30px;
+  }
+
+  .date{
+    margin-top: -4px;
+  }
+
+  .date h5{
+    color: #d434fe;
+  }
+
+  .date p{
+    color: white;
+  }
+
+  .novm{
+    margin-left: 5px;
+  }
+
+  .longer{
+    margin-bottom: 5%;
+  }
+
+  .whom{
+    width: 80%;
+    margin-bottom: 10px;
+  }
+
+  .one p{
+    color: white;
+    font-weight: 700;
+    font-style: bold;
+  }
+
 
 
 
 }
 
 @media (max-width: 500px) {
+
+  .na {
+    margin-left: 0;
+  }
+
   .pur {
     display: none !important;
   }
@@ -783,7 +855,6 @@ hr {
   }
 
   .intro h4{
-    /* line-height: 30px; */
     font-size: 24px;
     display: none;
   }
@@ -875,5 +946,43 @@ hr {
     top: -35px;
   }
 
+  .announce-div-mobile{
+    padding: 0 20px;
+  }
 
+  .date p{
+    width: 100%!important;
+    line-height: 20px;
+    margin-bottom: 0;
+    font-size: 13.5px;
+  }
+
+  .date h5{
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  .time{
+    padding: 0 15px;
+  }
+
+  .begins{
+    margin-top: 30px!important;
+  }
+
+  .end{
+    margin-top: 30px!important;
+  }
+/* 
+  .end :nth-child(2){
+    margin-top: 10px;
+  }*/
+
+  .end :nth-child(3){
+    margin-top: 21px;
+  } 
+
+  .ann{
+    margin-top: 20px!important;
+  }
 }
