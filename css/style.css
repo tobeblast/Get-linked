@@ -376,6 +376,76 @@ hr {
   line-height: 30px;
 }
 
+.announce-div{
+  gap: 80px;
+}
+
+.announce-div h5{
+  color: #d434fe;
+}
+
+.announce-div p{
+  color: white;
+}
+
+.announced{
+  text-align: right;
+  margin-top: 10%;
+}
+
+.nov {
+  margin-top: 28%;
+}
+
+.team{
+  margin-top: 22%;
+}
+
+.nov2{
+  margin-top: 25%;
+}
+
+.offically{
+  margin-top: 23%;
+}
+
+.date{
+  text-align: left;
+  margin-top: 13.5%;
+}
+
+.nov3{
+  margin-top: 22%;
+}
+
+.accepted{
+  margin-top: 20%;
+}
+
+.demo{
+  margin-top: 20%;
+}
+
+
+
+.one{
+  background: url('../images/Rectangle 7.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 895%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  border-radius: 800px; 
+  margin-left: -16px;
+}
+
+.one p{
+  margin-top: 15px;
+}
+
+
 
 @media (max-width: 768px) {
 
