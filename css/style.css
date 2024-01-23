@@ -466,13 +466,69 @@ hr {
   display: none!important;
 }
 
+.position{
+  gap: 30px;
+  margin-top: 5%;
+}
+
+.prize-div{
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+.cup-div{
+  gap: 30px;
+}
+
+.prize{
+  width: 40%;
+}
+.prize h4{
+  color: white;
+  width: 30%;
+}
+
+.prize h4 span{
+  color: #d434fe;
+}
+
+.prize p{
+  color: white;
+  width: 80%;
+}
+
+.first{
+  background: url('../images/Rectangle 20.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+.second{
+  background: url('../images/Rectangle 19.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+.third {
+  background: url('../images/Rectangle 19.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+
 
 @media (max-width: 768px) {
 
   #section{
     height: 1500%;
   }
-  
+
   .get-div {
     flex-direction: column;
   }
