@@ -6,7 +6,7 @@
 
 #section {
   background-color: rgb(40, 3, 66);
-  height: 1000vh;
+  height: 1500vh;
   overflow: hidden;
 }
 
@@ -385,7 +385,7 @@ hr {
 }
 
 .announce-div-mobile{
-  display: none;
+  display: none!important;
 }
 
 .announce-div h5{
@@ -470,6 +470,10 @@ hr {
 .prize-div{
   justify-content: space-between;
   margin-top: 10%;
+}
+
+.prize-div-mobile{
+  display: none!important;
 }
 
 .cup-div{
@@ -601,19 +605,122 @@ hr {
 .bronze h4 {
   color: #D434FE;
 }
-/*.third {
-  background: url('../images/Rectangle 19.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  text-align: center;
-  color: white;
-}*/
 
+.partners{
+  justify-content: center;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.partners h4{
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 35px;
+  font-family: Arial;
+}
+
+.partners p{  
+  width: 65%;
+  margin-left: 17%;
+}
+
+.bor-div{
+  padding: 0 90px;
+}
+
+.bor{
+  border: 1px #D434FE solid;
+  padding: 80px;
+  border-radius: 5px;
+}
+
+.logos1{
+  gap: 40px;
+}
+
+.logos1 :nth-child(1) {
+  margin-left: 6%;
+  margin-bottom: 7px;
+}
+
+.logos1 :nth-child(2) {
+  margin-left: 10%;
+}
+
+.logos1 :nth-child(3) {
+  margin-left: 0;
+  margin-top: 27px;
+}
+
+.logos1 :nth-child(4) {
+  margin-left: 4%;
+}
+
+.logos1 :nth-child(5){
+  margin-left: 7%;
+}
+
+.line2{
+  gap: 40px;
+  margin-top: 10px;
+}
+
+.logos2{
+  gap: 40px;
+}
+
+.logos2 :nth-child(1){
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.logos2 :nth-child(2){
+  margin-left: 40px;
+}
+
+.logos2 :nth-child(3){
+  font-size: 50px;
+  font-weight: 400;
+  font-family: "Typo Hoop Demo";
+  margin-top: 30px;
+}
+
+.logos2 :nth-child(3) span{
+  color: #00A3FF;
+  margin-left: 0;
+}
+
+.logos2 :nth-child(4){
+  margin-left: 5%;
+}
+
+.plus2 :nth-child(1){
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.plus2 :nth-child(1) span{
+  color: #F00;
+  margin-left: 0;
+}
+
+.plus{
+  top: -88px;
+  left: 50px;
+  width: 100%;
+}
+
+.plus2 :nth-child(2) p{
+  font-size: 10px;
+  width: 100%;
+}
 
 @media (max-width: 768px) {
 
   #section{
-    height: 1500vh;
+    height: 2000vh;
   }
 
   .get-div {
@@ -856,20 +963,26 @@ hr {
     font-style: bold;
   }
 
-  .prize-div{
-    display: none!important;
+  .announce-div-mobile{
+    display: flex!important;
+  }
+
+  .prize{
+    display: none;
   }
 
   .prize-div-mobile{
     justify-content: center;
     text-align: center;
     margin-top: 0!important;
+    display: flex!important;
   }
 
   .prize-mobile{
     color: white;
 
   }
+
   .prize-mobile h4{ 
     color: white;
     font-size: 25px;
@@ -899,7 +1012,92 @@ hr {
     margin-top: 25%;
   }
 
+  .partners{
+    margin-top: 65%;
+  }
 
+  .bor-div{
+    padding: 0 50px;
+  }
+
+  .bor{
+    padding: 20px;
+  }
+
+  .logos1 img{
+    width: 100%;
+  }
+
+  .logos1 :nth-child(1){
+    margin-left: 3%;
+  }
+
+  .logos1 :nth-child(2){
+    margin-left: 10px;
+  }
+
+  .logos1 :nth-child(2) img{
+    /* width: 70%; */
+  }
+
+  .logos1 :nth-child(3){
+    margin-left: -35px;
+  }
+
+  .logos1 :nth-child(4){
+    margin-left: -30px;
+  }
+
+
+  .logos1 :nth-child(5){
+    margin-left: 0;
+  }
+
+  .line2 img{
+    width: 30%;
+  }
+
+  .logos2 :nth-child(1) img{
+    width: 270%;
+  }
+
+  .logos2 :nth-child(2) img{
+    margin-left: 52px;
+  }
+
+  .logo2 :nth-child(2){
+    margin-left: 30%;
+  }
+
+  .logos2 :nth-child(3){  
+    font-size: 45px;
+    margin-top: 10px;
+    margin-left: 0!important;
+  }
+
+  .logos2 :nth-child(4) img{
+    width: 18%;
+  }
+
+  .logos2 :nth-child(4){
+    margin-left: -35px;
+  }
+
+  .logos2 :nth-child(5){
+    margin-left: -35px;
+  }
+
+  .plus2 :nth-child(1) {
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 30px;
+  }
+
+  .plus {
+    top: -88px;
+    left: 30px;
+    width: 100%;
+  }
 
 }
 
