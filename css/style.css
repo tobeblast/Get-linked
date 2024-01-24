@@ -10,7 +10,7 @@ html{
 
 #section {
   background-color: rgb(40, 3, 66);
-  height: 1500vh;
+  height: auto;
   overflow: hidden;
 }
 
@@ -23,8 +23,9 @@ html{
   justify-content: space-between;
 }
 
-.nb p {
+.nb h4{
   color: white !important;
+  font-weight: 700;
 }
 
 .nb span {
@@ -790,18 +791,81 @@ hr {
 .padlock{
   background-image: url('../images/Vector.png');
   background-repeat: no-repeat;
-  /* margin-left: 8%; */
 }
 
 .padlock img{
   margin-top: 38%;
 }
 
-@media (max-width: 768px) {
+footer{
+  margin-top: 5%;
+  background: #100B20;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
 
-  #section{
-    height: 2000vh;
-  }
+footer h6{
+  color: #D434FE;
+  font-size: 20px;
+}
+
+.foot{
+  justify-content: space-between;
+}
+
+.nb-div2{
+  width: 45%;
+}
+
+.group{
+  gap: 10px;
+}
+
+.group img{
+  margin-top: -5%;
+}
+
+.location{
+  width: 50%;
+  gap: 20px;
+}
+
+.location img{
+  margin-top: -45%;
+}
+
+.use-div{
+  gap: 10px;
+}
+
+.follow-use{
+  width: 68%;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.follow{
+  gap: 20px;
+}
+
+.follow img{
+  margin-top: -12px;
+}
+
+.follow p{
+  color: #d434fe;
+  font-size: 18px;
+}
+
+.copy{
+  justify-content: center;
+}
+
+.foot-mobile{
+  display: none;
+}
+
+@media (max-width: 768px) {
 
   .get-div {
     flex-direction: column;
@@ -1195,6 +1259,19 @@ hr {
     margin-top: 30%;
     margin-left: -5%;
   }
+
+  .location {
+    width: 80%;
+    gap: 20px;
+  }
+
+  .follow-use{
+    width: 100%;
+  }
+
+  .foot-mobile{
+    display: none;
+  }
 }
 
 @media (max-width: 500px) {
@@ -1454,10 +1531,6 @@ hr {
   .end{
     margin-top: 30px!important;
   }
-/* 
-  .end :nth-child(2){
-    margin-top: 10px;
-  }*/
 
   .end :nth-child(3){
     margin-top: 21px;
@@ -1647,13 +1720,36 @@ hr {
     margin-left: 0;
     background-position: center;
     background-size: 100%;
-    margin-top: -25%;
+    margin-top: -35%;
   }
 
   .padlock img{
     width: 100%;
     margin-top: 90%;
     margin-left: 0;
+  }
+
+  .foot-big{
+    display: none;
+  }
+
+  .foot-mobile{
+    display: block!important;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .foot{
+    flex-direction: column;
+  }
+
+  .nb-div2{
+    width: 100%;
+  }
+
+  .location{
+    width: 50%;
+    gap: 10px;
   }
 
 }
