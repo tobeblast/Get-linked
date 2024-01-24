@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 #section {
   background-color: rgb(40, 3, 66);
   height: 1500vh;
@@ -629,6 +633,10 @@ hr {
   padding: 0 90px;
 }
 
+.bor-div-mobile{
+  display: none;
+}
+
 .bor{
   border: 1px #D434FE solid;
   padding: 80px;
@@ -706,7 +714,7 @@ hr {
   margin-left: 0;
 }
 
-.plus{
+.plu{
   top: -88px;
   left: 50px;
   width: 100%;
@@ -715,6 +723,78 @@ hr {
 .plus2 :nth-child(2) p{
   font-size: 10px;
   width: 100%;
+}
+
+.terms-div{
+  justify-content: space-between;
+  margin-top: 10%;
+  gap: 40px;
+}
+
+.terms h4{
+  color: white;
+  width: 50%;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 35px;
+  margin-bottom: 3%;
+  font-family: Arial;
+}
+
+.terms h4 span{
+  color: #D434FE;
+}
+
+.last p{
+  color:rgba(255, 255, 255, 0.75);
+}
+
+.bor2{
+  border: 1px #D434FE solid;
+  padding: 50px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.bor2 h5{
+  color: #D434FE;
+  font-weight: 700;
+  line-height: 35px;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.here{
+  color: white!important;
+}
+
+.bor2 p{
+  line-height: 25px;
+}
+
+.check{
+  gap: 15px;
+}
+
+.check img{
+  width: 20%;
+  margin-top: -14px;
+}
+
+.read{
+  display: flex;
+  justify-content: center;
+  margin-top: 13px;
+}
+
+.padlock{
+  background-image: url('../images/Vector.png');
+  background-repeat: no-repeat;
+  /* margin-left: 8%; */
+}
+
+.padlock img{
+  margin-top: 38%;
 }
 
 @media (max-width: 768px) {
@@ -980,7 +1060,6 @@ hr {
 
   .prize-mobile{
     color: white;
-
   }
 
   .prize-mobile h4{ 
@@ -1020,6 +1099,10 @@ hr {
     padding: 0 50px;
   }
 
+  .bor-div-mobile{
+    display: none;
+  }
+
   .bor{
     padding: 20px;
   }
@@ -1034,10 +1117,6 @@ hr {
 
   .logos1 :nth-child(2){
     margin-left: 10px;
-  }
-
-  .logos1 :nth-child(2) img{
-    /* width: 70%; */
   }
 
   .logos1 :nth-child(3){
@@ -1062,11 +1141,7 @@ hr {
   }
 
   .logos2 :nth-child(2) img{
-    margin-left: 52px;
-  }
-
-  .logo2 :nth-child(2){
-    margin-left: 30%;
+    margin-left: 58px;
   }
 
   .logos2 :nth-child(3){  
@@ -1075,12 +1150,16 @@ hr {
     margin-left: 0!important;
   }
 
+  .logos2 :nth-child(3) p{
+    margin-left: 0;
+  }
+
   .logos2 :nth-child(4) img{
     width: 18%;
   }
 
   .logos2 :nth-child(4){
-    margin-left: -35px;
+    margin-left: -27px;
   }
 
   .logos2 :nth-child(5){
@@ -1093,12 +1172,29 @@ hr {
     margin-top: 30px;
   }
 
-  .plus {
-    top: -88px;
+  .plu {
     left: 30px;
-    width: 100%;
   }
 
+  .terms-div{
+    flex-direction: column;
+  }
+
+  .check img {
+    width: 10%;
+    margin-top: 0;
+  }
+
+  .padlock{
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+
+  .padlock img{
+    margin-top: 30%;
+    margin-left: -5%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -1451,4 +1547,113 @@ hr {
   .three p {
     margin-bottom: 0;
   }
+
+  .partners{
+    margin-top: 71%;
+  }
+
+  .partners p{
+    width: 100%;
+    margin: 0;
+  }
+
+  .bor-div{
+    display: none;
+  }
+
+  .bor-div-mobile{
+    display: block;
+    padding: 0 10px;
+  }
+
+  .bor-mobile{
+    padding: 18px;
+    border: 1px #D434FE solid;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  .line2-mobile{
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .pay p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Typo Hoop Demo";
+  }
+
+  .pay p span{
+    color: #00A3FF;
+    margin-left: 0;
+  }
+
+  .plus2-mobile p{
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .plus2-mobile p span {
+    color: #F00;
+    margin-left: 0;
+  }
+  
+  .plu-mobile {
+    top: -20px;
+    left: 55px;
+    width: 100%;
+  }
+  
+  .plu-mobile p {
+    font-size: 5px;
+    width: 100%;
+  }
+
+  .terms h4 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .terms p{
+    text-align: center;
+  }
+
+  .bor2{
+    padding: 30px;
+  }
+
+  .bor2 p{
+    width: 100%;
+    line-height: 20px;
+    font-size: 12px;
+  }
+
+  .bor2 h5{
+    text-align: start;
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .check p{
+    text-align: start;
+  }
+
+  .check img{
+    margin-top: -20px;
+  }
+
+  .padlock{
+    margin-left: 0;
+    background-position: center;
+    background-size: 100%;
+    margin-top: -25%;
+  }
+
+  .padlock img{
+    width: 100%;
+    margin-top: 90%;
+    margin-left: 0;
+  }
+
 }
