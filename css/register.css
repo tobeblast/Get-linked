@@ -132,6 +132,7 @@ form h4{
   .mobile{
     display: block!important;
   }
+
   h4{
     font-weight: 700;
     font-family: Arial;
@@ -139,13 +140,37 @@ form h4{
     color: #d434fe;
     line-height: 35px;
     margin-bottom: 3%;
+    padding-left: 30px;
   }
 
   .formally{
     padding: 0 30px;
+    padding-bottom: 20px;
+  }
+
+  .move{
+    justify-content: space-between;
   }
 
   .move p{
-    
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .left-right p {
+    font-size:  15px;
+  }
+
+  .cat-div{
+    justify-content: space-between;
+  }
+
+  .review p{
+    font-weight: 400;
+    font-size: 13px;
+  }
+
+  .agree p{
+    font-size: 12px;
   }
 }
