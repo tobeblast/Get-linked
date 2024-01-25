@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#section{
+  background-color: rgb(40, 3, 66);
+  width: 100%;
+  height: 200dvh;
+}
+
+.na {
+  margin-left: 30%;
+  justify-content: space-between;
+}
+
+.nb h4 {
+  color: white !important;
+  font-weight: 700;
+}
+
+.nb span {
+  color: purple;
+}
+
+.btn1 {
+  border: 0;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #fe34dc, #903aff);
+}
