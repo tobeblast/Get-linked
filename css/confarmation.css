@@ -3,3 +3,102 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+section{
+  background-color: rgb(40, 3, 66);
+  height: 100dvh;
+  display: flex;
+}
+
+.confarm-div{
+  align-items: center;
+}
+
+.confarm{
+  border: 1px solid #D434FE;
+  padding: 45px;
+  width: 40%;
+}
+
+.success{
+  justify-content: center;
+  gap: 0!important;
+}
+
+.confarm h5{
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.confarm p{
+  width: 56%;
+  font-size: 13px;
+}
+
+.man{
+  margin-left: -90px;
+}
+
+.con{
+  text-align: center;
+}
+
+.wo {
+  margin-left: -53%;
+}
+
+.btn1 {
+  border: 0;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #fe34dc, #903aff);
+}
+
+@media(max-width:768px){
+
+  .confarm{
+    padding: 20px;
+  }
+  .confarm h5{
+    width: 100%;
+  }
+
+  .confarm p{
+    margin-top: 10px;
+  }
+
+  .wo{
+    margin-left: -65%;
+    margin-top: 26px!important;
+  }
+}
+
+@media(max-width:500px) {
+
+  section{
+    height: 100dvh;
+    overflow: hidden;
+  }
+
+  .confarm-div{
+    display: block!important;
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .confarm{
+    width: 100%;
+  }
+
+  .confarm h5{
+    font-size: 18px;
+  }
+
+  .yes{
+    margin-left: 20px;
+  }
+
+
+
+}
