@@ -47,6 +47,10 @@ form h5{
   color: #d434fe;
 }
 
+.touch-div-mobile {
+  display: none;
+}
+
 .touch-div{
   justify-content: space-between;
 }
@@ -97,9 +101,7 @@ form p{
     margin-left: 0;
   }
 
-  .touch-div-mobile{
-    display: none;
-  }
+
 }
 
 @media(max-width:500px){
