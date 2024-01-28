@@ -1561,12 +1561,12 @@ footer h6{
   .back2 {
     width: 115px;
     height: 230px;
-    left: 90px;
+    left: 65px;
   }
 
   .gold{
     margin-top: 50px;
-    left: 100px;
+    left: 75px;
   }
 
   .gold img{
@@ -1585,6 +1585,7 @@ footer h6{
   .back{
     width: 115px;
     height: 180px;
+    left: -25px;
   }
 
   .position{
@@ -1593,6 +1594,10 @@ footer h6{
 
   .silver img{
     width: 100%;
+  }
+
+  .silver{
+    left: -13px;
   }
 
   .three{
@@ -1606,7 +1611,7 @@ footer h6{
   .back3 {
     width: 115px;
     height: 180px;
-    left: 205px;
+    left: 160px;
   }
 
   .bronze img {
@@ -1614,7 +1619,7 @@ footer h6{
   }
 
   .bronze{
-    left: 220px;
+    left: 175px;
   }
 
   .three p {
