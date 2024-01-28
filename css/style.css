@@ -649,12 +649,12 @@ hr {
 }
 
 .logos1 :nth-child(1) {
-  margin-left: 6%;
+  margin-left: 8%;
   margin-bottom: 7px;
 }
 
 .logos1 :nth-child(2) {
-  margin-left: 10%;
+  margin-left: 9%;
 }
 
 .logos1 :nth-child(3) {
@@ -663,7 +663,7 @@ hr {
 }
 
 .logos1 :nth-child(4) {
-  margin-left: 4%;
+  margin-left: 7%;
 }
 
 .logos1 :nth-child(5){
@@ -681,7 +681,7 @@ hr {
 
 .logos2 :nth-child(1){
   margin-top: 10px;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 .logos2 :nth-child(2){
@@ -831,7 +831,7 @@ footer h6{
 }
 
 .location img{
-  margin-top: -40%;
+  margin-top: -20%;
 }
 
 .use-div{
@@ -1201,11 +1201,11 @@ footer h6{
   }
 
   .logos2 :nth-child(1) img{
-    width: 270%;
+    width: 100%;
   }
 
-  .logos2 :nth-child(2) img{
-    margin-left: 58px;
+  .logos2 :nth-child(2){
+    margin-left: 35px;
   }
 
   .logos2 :nth-child(3){  
@@ -1218,12 +1218,8 @@ footer h6{
     margin-left: 0;
   }
 
-  .logos2 :nth-child(4) img{
-    width: 18%;
-  }
-
   .logos2 :nth-child(4){
-    margin-left: -27px;
+    margin-left: -37px;
   }
 
   .logos2 :nth-child(5){
