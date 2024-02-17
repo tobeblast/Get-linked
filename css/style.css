@@ -654,7 +654,7 @@ hr {
 }
 
 .logos1 :nth-child(2) {
-  margin-left: 9%;
+  margin-left: 8%;
 }
 
 .logos1 :nth-child(3) {
@@ -663,7 +663,7 @@ hr {
 }
 
 .logos1 :nth-child(4) {
-  margin-left: 7%;
+  margin-left: 4%;
 }
 
 .logos1 :nth-child(5){
@@ -685,7 +685,7 @@ hr {
 }
 
 .logos2 :nth-child(2){
-  margin-left: 40px;
+  margin-left: 10px;
 }
 
 .logos2 :nth-child(3){
@@ -701,7 +701,7 @@ hr {
 }
 
 .logos2 :nth-child(4){
-  margin-left: 5%;
+  margin-left: 3%;
 }
 
 .plus2 :nth-child(1){
